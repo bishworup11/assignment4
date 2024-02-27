@@ -16,7 +16,7 @@ html {
 
 #navbar-large{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width:100%;
     height: 52px;
     padding: 0px 50px;
@@ -36,7 +36,7 @@ html {
     cursor: pointer;
     padding: 5px;
     border-radius: 5px;
-    font-size: small;
+    font-size: medium;
     border:solid 0.1px rgb(154, 154, 154);
     
 }
@@ -47,7 +47,7 @@ html {
     
     background: #e0e0e0;
     border-radius: 5px;
-    color: rgb(0, 0, 0);
+    color: rgb(12, 37, 138);
     transition:
     border-radius 0.25s,
     background-color 0.5s;
