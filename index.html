@@ -6,37 +6,21 @@
     <link rel="stylesheet" href="style.css"/>
     <title>Users</title>
 
-    <style>
-        table, td, th {
-            margin-top: 50px;
-          border: 1px solid black;
-        }
-        
-        /* table {
-          border-collapse: collapse;
-          width: 100%; width: 100%
-        }
-         */
-        td {
-          text-align: center;
-        }
-        </style>
- 
 </head>
 <body>
     
     <nav id="navbar-large">
         <div><img width="30%"  src="./images/paws.png" alt=""/></div>
         <div id="navbar-large-item">
-            <div >Worker</div>
-            <div >Call back</div>
-            <div >Promise</div>
-            <div >Async/await</div>
+            <div  > <a style="text-decoration: none" href="#worker1" > Worker</a></div>
+            <div  > <a style="text-decoration: none" href="#Callback1" > Call back</a></div>
+            <div  > <a style="text-decoration: none" href="#Promis1" > Promise</a></div>
+            <div  > <a style="text-decoration: none" href="#async1" >Async/await</a></div>
         </div>
     </nav>
 
    
-    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;">
+    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;" id="worker1">
         <h1> Fetch Data With Worker</h1>
     <table  style="border: 1px solid black;  width: 100% ;" id="user-card1">
         <tr  style="border: 2px solid black; ">
@@ -50,7 +34,7 @@
     </div>
 
     
-    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;">
+    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;" id="Callback1">
         <h1> Fetch Data With Callback</h1>
     <table  style="border: 1px solid black;  width: 100% ;" id="user-card2">
         <tr  style="border: 2px solid black; ">
@@ -64,7 +48,7 @@
     </div>
 
    
-    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;">
+    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px; " id="Promis1">
         <h1> Fetch Data With Promis</h1>
     <table  style="border: 1px solid black;  width: 100% ;" id="user-card3">
         <tr  style="border: 2px solid black; ">
@@ -77,7 +61,7 @@
         </table>
     </div>
 
-    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;">
+    <div style="padding-top: 60px; padding-left: 60px; padding-right: 60px;" id='async1'>
         <h1> Fetch Data With Async Await</h1>
     <table  style="border: 1px solid black;  width: 100% ;" id="user-card4">
         <tr  style="border: 2px solid black; ">
